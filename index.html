@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="image/logo-b.svg" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <!-- -----------*** Header ***----------- -->
+    <div class=".container-fluid pt-2 ps-2">
+      <header class="row">
+        <nav class="navbar custom-nav px-5">
+          <div class="container-fluid" id="fluid">
+            <img src="image/logo.svg" alt="" />
+
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+            <div>
+              <img src="image/bell.svg" alt="" />
+              <img src="image/circle-user.svg" alt="" />
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <div class="container-fluid">
+        <div class="row">
+          <aside class="col-sm-2 sidebar ps-5 pt-5">
+            <a href="index.html" class="my-btn selected"
+              ><img src="image/dashboard.svg" alt="home" /><span>
+                Dashboard</span
+              ></a
+            >
+            <a href="pages/students.html"
+              ><img src="image/users-1.svg" alt="students" /><span
+                >Students</span
+              >
+            </a>
+            <a href="pages/courses.html"
+              ><img src="image/students.svg" alt="courses" /><span
+                >Courses</span
+              >
+            </a>
+            <a href="pages/contact.html"
+              ><img src="image/message-1.svg" alt="contact" /><span
+                >Contact</span
+              ></a
+            >
+            <a href="pages/career.html"
+              ><img src="image/grid.svg" alt="career" /><span>Career</span></a
+            >
+          </aside>
+          <main class="col-sm-10">
+            <div class="container mt-3 mx-2">
+              <div class="row row-cols gap-3">
+                <div class="col-md card custom-card">
+                  <div class="row my-3 inside-card">
+                    <div class="col-3 img-card d-flex align-items-center">
+                      <img src="image/users-1.svg" alt="" class="" />
+                    </div>
+                    <div class="col my-text">
+                      <div>Total Student</div>
+                      <div>3360</div>
+                      <div
+                        class="progress"
+                        role="progressbar"
+                        aria-label="Example 1px high"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="height: 8px; background-color: #ffffff71"
+                      >
+                        <div
+                          class="progress-bar"
+                          style="width: 80%; background-color: #ffffff"
+                        ></div>
+                      </div>
+                      <div>80% Increase in 20 Days</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md card custom-card">
+                  <div class="row my-3 inside-card">
+                    <div class="col-3 img-card d-flex align-items-center">
+                      <img src="image/user-1.svg" alt="" class="" />
+                    </div>
+                    <div class="col my-text">
+                      <div>NEW STUDENTS</div>
+                      <div>245</div>
+                      <div
+                        class="progress"
+                        role="progressbar"
+                        aria-label="Example 1px high"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="height: 8px; background-color: #ffffff71"
+                      >
+                        <div
+                          class="progress-bar"
+                          style="width: 80%; background-color: #ffffff"
+                        ></div>
+                      </div>
+                      <div>50% Increase in 25 Days</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md card custom-card">
+                  <div class="row my-3 inside-card">
+                    <div class="col-3 img-card d-flex align-items-center">
+                      <img
+                        src="image/students.svg"
+                        alt=""
+                        class="img-students"
+                      />
+                    </div>
+                    <div class="col my-text">
+                      <div>TOTAL COURSE</div>
+                      <div>28</div>
+                      <div
+                        class="progress"
+                        role="progressbar"
+                        aria-label="Example 1px high"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="height: 8px; background-color: #ffffff71"
+                      >
+                        <div
+                          class="progress-bar"
+                          style="width: 80%; background-color: #ffffff"
+                        ></div>
+                      </div>
+                      <div>76% Increase in 20 Days</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md card custom-card">
+                  <div class="row my-3 inside-card">
+                    <div class="col-3 img-card d-flex align-items-center">
+                      <img src="image/circle-dollar-1.svg" alt="" class="" />
+                    </div>
+                    <div class="col my-text">
+                      <div>FEES COLLECTION</div>
+                      <div>25160$</div>
+                      <div
+                        class="progress"
+                        role="progressbar"
+                        aria-label="Example 1px high"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="height: 8px; background-color: #ffffff71"
+                      >
+                        <div
+                          class="progress-bar"
+                          style="width: 80%; background-color: #ffffff"
+                        ></div>
+                      </div>
+                      <div>30% Increase in 30 Days</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container mt-5">
+              <div class="row my-chart gap-4">
+                <div class="col-md p-3 rounded">
+                  Overview
+                  <img src="image/1.png" alt="" />
+                </div>
+                <div class="col-md p-3 rounded">
+                  Number of Students
+                  <img src="image/2.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+      <!-- -----------*** aside ***----------- -->
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
